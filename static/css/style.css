@@ -1,0 +1,145 @@
+.header {
+    transition: 1s;
+}
+.start-background {
+    background-color: #30ca9454;
+}
+.start-background button{
+    top: 25%;
+    right: 25%;
+    transform: translate(25%, 25%);
+    border: 3px solid #30ca94;
+    color: white;
+    background-color:#30ca94;
+    padding: 20px 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: larger;
+    transition: 500ms;
+}
+.start-background button:hover{
+    border: 3px solid #30ca94;
+    color: #30ca94;
+    background-color:white;
+}
+.start-background-img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.app-background-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.app-info-container{
+    left: 30px;
+    bottom: 10%;
+    color: white;
+    font-size: 50px;
+    max-width: 560px;
+    font-weight: bold;
+}
+.app-name{
+    background-color: #0e65465e;
+    padding: 0 20px;
+    font-family: 'Autour One', cursive;
+    border-radius: 20px;
+}
+.author {
+    font-weight: normal;
+    font-size:15px;
+    background-color: #0e65465e;
+    padding: 0 20px;border-radius: 20px;
+    font-family: 'Autour One', cursive;
+}
+.logo{
+    width: 50px;
+}
+.logo-app-name{
+    font-family: 'Autour One', cursive;
+}
+
+.app-content {
+    top: 50px;
+    right: 0;
+    transform: translate(0, 0);
+}
+
+.addbtn{
+    width: 200px;
+    cursor: pointer;
+    border: 4px solid #757575;
+    padding: 40px;
+}
+.addbtn:hover {
+    border-color: #30ca94;
+}
+.show-img {
+    width: 40%;
+}
+.show-img img{
+    width: 100%;
+}
+.show-img label{
+    cursor: pointer;
+}
+.ver-line{
+    border: 2px solid #30ca94;
+    height: auto;
+}
+.social-share img,
+.social-share button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 0;
+}
+.header-link {
+    font-family: 'Autour One', cursive;
+}
+.filter{
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.filter:hover {
+    background-color: rgba(128, 128, 128, 0.153);
+    border-radius: 10px;
+}
+.filter-item{
+    width:100px;
+}
+.filter-list{
+    overflow-x: scroll;
+}
+.about-avatar {
+    border: 6px solid white;
+    /* overflow: hidden; */
+    width: 150px;
+    height: 150px;
+}
+.about-avatar img{
+    object-fit:cover;
+}
+.header .header-link:hover{
+    cursor: pointer;
+    color: #30ca94;
+    font-weight: bold;
+}
+
+.cal-loading{
+    display:flex;
+    widows: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent !important;
+    border:unset !important;;
+}
+.spinner-grow {
+    width: 8rem !important;;
+    height: 8rem !important;
+}
